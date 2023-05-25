@@ -41,7 +41,7 @@ async function loadOpenClaims(page, initial, out) {
           description,
           link,
           deadline: deadline.toISOString(),
-          source: "consumer-action.org",
+          source: 0,
           status: 0,
         });
       }
@@ -101,7 +101,7 @@ async function loadPendingClaims(page, initial, out) {
           description,
           link,
           //   deadline: deadline.toISOString(),
-          source: "consumer-action.org",
+          source: 0,
           status: 1,
         });
       }
@@ -155,7 +155,7 @@ async function loadClosedClaims(page, initial, out) {
           defendant,
           description,
           link,
-          source: "consumer-action.org",
+          source: 0,
           status: 2,
         });
       }
@@ -222,4 +222,4 @@ async function main() {
   await browser.close();
 }
 
-// main();
+main();

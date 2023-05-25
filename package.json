@@ -1,0 +1,16 @@
+{
+  "name": "claimdb",
+  "description": "A simple class action lawsuit database.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Carter Snook",
+    "email": "cartersnook04@gmail.com",
+    "url": "https://github.com/sno2"
+  },
+  "license": "unlicense",
+  "type": "module",
+  "files": ["index.js", "data.json"],
+  "dependencies": {
+    "puppeteer": "^20.3.0"
+  }
+}
